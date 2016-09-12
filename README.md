@@ -1,8 +1,8 @@
 # daily_coding
 ```
-1. 学习并测试thrift，thrift的产生？解决了什么问题？可以替换的东西？
+1. 学习并测试thrift，thrift的起源？为了解决什么问题？ 可以用什么东西替换？
 
-2. 了解jetty。来龙去脉
+2. 了解jetty，来龙去脉
 
 3. JStorm中 event  and  eventmanager  （线程调用框架）
 
