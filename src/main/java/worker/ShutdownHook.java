@@ -1,4 +1,4 @@
-package jstormWorker;
+package worker;
 
 /**
  * Created by elroy on 16-8-24.

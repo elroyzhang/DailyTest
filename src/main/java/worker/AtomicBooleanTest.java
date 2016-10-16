@@ -1,6 +1,5 @@
-package jstormWorker;
+package worker;
 
-import java.io.BufferedReader;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**

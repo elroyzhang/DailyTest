@@ -1,4 +1,4 @@
-package JstormTool;
+package tool;
 
 /**
  * Created by elroy on 16-9-1.

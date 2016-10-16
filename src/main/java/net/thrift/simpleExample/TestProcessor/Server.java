@@ -1,6 +1,8 @@
 package net.thrift.simpleExample.TestProcessor;
 
 
+import net.thrift.simpleExample.service.Test;
+import net.thrift.simpleExample.service.TestImpl;
 import org.apache.thrift.protocol.TBinaryProtocol;
 import org.apache.thrift.protocol.TBinaryProtocol.Factory;
 import org.apache.thrift.server.TServer;
@@ -15,7 +17,7 @@ public class Server {
 
       TServerSocket serverTransport = new TServerSocket(1234);
 
-      Test.Processor process = new Processor(new TestImpl());
+      Test.Processor process = new Test.Processor(new TestImpl());
 
       Factory portFactory = new TBinaryProtocol.Factory(true, true);
 
